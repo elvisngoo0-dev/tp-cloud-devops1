@@ -33,4 +33,3 @@ function effacer() {
 
     document.getElementById("resultat").value = "";
 }
-live server
