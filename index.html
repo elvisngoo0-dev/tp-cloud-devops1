@@ -13,13 +13,51 @@
 
         <h1>TP Cloud Computing & DevOps</h1>
 
-        <p>Bienvenue dans notre première application Web Cloud.</p>
+        <p>Bienvenue dans notre application Web Cloud.</p>
+
+        <!-- COMPTEUR -->
 
         <h2 id="counter">0</h2>
 
         <button onclick="incrementer()">
-            Cliquez ici
+            Incrémenter
         </button>
+
+        <hr>
+
+        <!-- CALCULATRICE -->
+
+        <h2>Calculatrice</h2>
+
+        <input type="text" id="resultat" readonly>
+
+        <div class="buttons">
+
+            <button onclick="ajouter('7')">7</button>
+            <button onclick="ajouter('8')">8</button>
+            <button onclick="ajouter('9')">9</button>
+            <button onclick="ajouter('/')">÷</button>
+
+            <button onclick="ajouter('4')">4</button>
+            <button onclick="ajouter('5')">5</button>
+            <button onclick="ajouter('6')">6</button>
+            <button onclick="ajouter('*')">×</button>
+
+            <button onclick="ajouter('1')">1</button>
+            <button onclick="ajouter('2')">2</button>
+            <button onclick="ajouter('3')">3</button>
+            <button onclick="ajouter('-')">−</button>
+
+            <button onclick="ajouter('0')">0</button>
+            <button onclick="ajouter('.')">.</button>
+            <button onclick="calculer()">=</button>
+            <button onclick="ajouter('+')">+</button>
+
+            <button class="clear" onclick="effacer()">
+                C
+            </button>
+
+        </div>
 
     </div>
 
@@ -27,3 +65,10 @@
 
 </body>
 </html>
+git status
+
+git add .
+
+git commit -m "Première version application web"
+
+git push
